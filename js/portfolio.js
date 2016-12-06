@@ -2,6 +2,7 @@ $(document).ready(function() {
 
   $('#links').hide();
   $('.skill-info').hide();
+  $('#heart-skill').hide();
   // $('.about').hide();
 
   $('#draw-gun').hide();
@@ -11,11 +12,7 @@ $(document).ready(function() {
   $('.see-more').hide();
   $('.padding').hide();
   $('#pic').hide();
-
-  $('.skill-sec').hover( function() {
-    // $('.padding').show();
-    // $('.padding').addClass('animated flipInX');
-  });
+  // $('#script-2').addClass('animated flipOutX');
 
   $('.see-more').fadeIn(3000);
 
@@ -29,11 +26,16 @@ $(document).ready(function() {
 
     if ($(this).scrollTop() > 260) {
     $('.skill-info').fadeIn();
-     $('.skill-info').addClass('animated slideInUp');
+    $('.skill-info').addClass('animated slideInUp');
     }
 
     if ($(this).scrollTop() > 740) {
      $('.about').addClass('animated slideInUp');
+    }
+
+    if ($(this).scrollTop() > 780) {
+      $('#heart-skill').fadeIn();
+      $('#heart-skill').addClass('animated slideInUp')
     }
 
     if ($(this).scrollTop() > 940) {
@@ -42,7 +44,7 @@ $(document).ready(function() {
      $('#pic').addClass('animated slideInLeft');
     }
 
-    if ($(this).scrollTop() > 1630) {
+    if ($(this).scrollTop() > 1480) {
       $('.padding').show();
       $('.padding').addClass('animated flipInX');
     }
@@ -88,10 +90,24 @@ $(document).ready(function() {
    }, 800);
   });
 
-  $('.descript').hover( function() {
-    $('.descript').css('background-color', '#bbd3d6');
+  $('#script-1').hover( function() {    // $('#script-2').fadeIn();
+    $('#first').addClass('animated swing');
+    $('#first').css('background-color', '#83adb5');
+    $('#first').text('(with a background in fine arts)');
     }, function(){
-      $('.descript').css('background-color', '#c7bbc9');
+      $('#first').removeClass('animated swing');
+      $('#first').css('background-color', '#c7bbc9');
+      $('#first').text("I'm a digital designer and developer");
+  });
+
+  $('#script-2').hover( function() {    // $('#script-2').fadeIn();
+    $('#second').addClass('animated swing');
+    $('#second').css('background-color', '#83adb5');
+    $('#second').text('(full working rights)');
+    }, function(){
+      $('#second').removeClass('animated swing');
+      $('#second').css('background-color', '#c7bbc9');
+      $('#second').text("from Los Angeles living in Sydney");
   });
 
   $('.project-3').hover( function() {
