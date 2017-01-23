@@ -62,7 +62,7 @@
 
 .work-sec {
   margin-top: 50px;
-  /*height: 100vh;*/
+  margin-bottom: 20px;
 }
 
 .see-more {
@@ -101,6 +101,7 @@
 
 #design {
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 p {
@@ -161,9 +162,9 @@ h1 {
 
 .skill-text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 10px;
 }
 
 .libby {
@@ -563,7 +564,7 @@ div .box-link {
 
 .footer {
   /*margin-top: 100px;*/
-  padding-top: 200px;
+  /*padding-top: 100px;*/
   /*padding-bottom: 200px;*/
 }
 
