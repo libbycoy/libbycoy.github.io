@@ -175,12 +175,15 @@ h1 {
 }
 
 .libby-two {
-  font-size: 65px;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 10px;
+  font-size: 6.0vh;
   /*color: #dfebec;*/
   color: #83adb5;
   opacity: 0.6;
   line-height: 40px;
   margin-left: -8px;
+  background-color: white;
   /*mix-blend-mode: overlay;*/
 }
 
@@ -220,10 +223,10 @@ h1 {
 .descript {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 10px;
-  font-size: 1.8em;
+  font-size: 3.0vh;
   color: white;
   line-height: 40px;
-  width: 60%;
+  /*width: 60%;*/
   opacity: 0.8;
   position: relative;
   background-color: #c7bbc9;

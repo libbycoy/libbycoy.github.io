@@ -103,11 +103,11 @@ $(document).ready(function() {
   $('#script-2').hover( function() {    // $('#script-2').fadeIn();
     $('#second').addClass('animated swing');
     $('#second').css('background-color', '#83adb5');
-    $('#second').text('(full working rights)');
+    $('#second').text('I love guacamole');
     }, function(){
       $('#second').removeClass('animated swing');
       $('#second').css('background-color', '#c7bbc9');
-      $('#second').text("from Los Angeles living in Sydney");
+      $('#second').text("born and raised in Los Angeles");
   });
 
   $('.project-3').hover( function() {
