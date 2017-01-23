@@ -161,7 +161,7 @@ h1 {
 
 .skill-text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 23px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 20px;
 }
@@ -219,7 +219,7 @@ h1 {
 .descript {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 10px;
-  font-size: 30px;
+  font-size: 1.8em;
   color: white;
   line-height: 40px;
   width: 60%;
@@ -397,7 +397,7 @@ span {
   text-align: center;
 }
 
-.project-3:hover .gun{
+.project-3:hover .gun {
   transform: scale(1);
   opacity: 0.9;
   animation-play-state: paused;
@@ -502,7 +502,7 @@ nav {
 	line-height: 1.3;
   color: #bfb5b2;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 1.4em;
   font-family: 'Open Sans 700', sans-serif;
   letter-spacing: 2px;
   font-variant-caps: all-small-caps;
@@ -555,10 +555,16 @@ div .box-link {
   padding-left: 30px;
 }
 
+.skill-center {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
 .footer {
-  margin-top: 200px;
+  /*margin-top: 100px;*/
   padding-top: 200px;
-  padding-bottom: 200px;
+  /*padding-bottom: 200px;*/
 }
 
 .bottom {
