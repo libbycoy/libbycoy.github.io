@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 ::selection {
-  background: #ffb7b7; /* WebKit/Blink Browsers */
+  background: #ffb7b7;
 }
 ::-moz-selection {
-  background: #ffb7b7; /* Gecko Browsers */
+  background: #ffb7b7; 
 }
 
 .main {
@@ -85,14 +85,9 @@
 
 .intro-text {
   z-index: 10;
-  /*position: absolute;*/
   margin-top: 100px;
   margin-left: 100px;
   left: 0;
-}
-
-.text-two {
-  /*padding-left: 100px;*/
 }
 
 .text {
@@ -178,13 +173,11 @@ h1 {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 10px;
   font-size: 6.0vh;
-  /*color: #dfebec;*/
   color: #83adb5;
   opacity: 0.6;
   line-height: 40px;
   margin-left: -8px;
   background-color: white;
-  /*mix-blend-mode: overlay;*/
 }
 
 .libby-three {
@@ -285,7 +278,6 @@ span {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  /*position: ;*/
   z-index: 1;
   transition: all .2s ease-in-out;
   overflow: hidden;
@@ -305,7 +297,6 @@ span {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  /*position: ;*/
   z-index: 1;
   transition: all .2s ease-in-out;
   overflow: hidden;
@@ -336,7 +327,6 @@ span {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  /*position: ;*/
   z-index: 1;
   transition: all .2s ease-in-out;
   overflow: hidden;
@@ -356,7 +346,6 @@ span {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  /*position: ;*/
   z-index: 1;
   transition: all .2s ease-in-out;
   overflow: hidden;
@@ -436,7 +425,6 @@ span {
   background-color: #3d3d3d;
 }
 
-
 .links {
   margin-top: 25vh;
 }
@@ -445,20 +433,16 @@ nav {
   background-color: rgba(0,0,0,0.0) !important;
 }
 
-/*.navbar {
-  border-right: .2px solid #eee;
-}*/
-
 .sidenav {
   width: 90px;
-  height: 100%; /* 100% Full-height */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%;
+  position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 40px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow-x: hidden;
+  padding-top: 40px;
+  transition: 0.5s;
 }
 
 /* The navigation menu links */
@@ -565,12 +549,6 @@ div .box-link {
   display:block;
 }
 
-.footer {
-  /*margin-top: 100px;*/
-  /*padding-top: 100px;*/
-  /*padding-bottom: 200px;*/
-}
-
 .bottom {
   color: #bbd3d6;
   text-decoration: none
@@ -586,7 +564,7 @@ div .box-link {
 }
 
 .skills {
-  height: 100vh;
+  height: 90vh;
   padding: 50px;
 }
 
